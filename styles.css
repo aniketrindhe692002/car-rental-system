@@ -42,6 +42,7 @@ span {
     margin-left: 7vw;
     font-size: 1.3rem;
     line-height: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #home button {
@@ -57,3 +58,71 @@ span {
     color: white;
     background-color: rgb(248, 74, 26);
 }
+
+#login-form {
+    float: right;
+    background-color: black;
+    height: 57vh;
+    width: 20vw;
+    margin-top: -38vh;
+    margin-right: 17vw;
+    opacity: 82%;
+    border-radius: 5%;
+}
+
+#login-form h2 {
+    color: rgb(248, 74, 26);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    width: 16vw;
+    height: 2.5rem;
+    font-size: 1.8rem;
+    margin-left: 10%;
+    align-items: center;
+    border-radius: 5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#login-form input {
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    height: 5vh;
+    width: 15.5vw;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid orangered;
+}
+
+.white-placeholder::placeholder {
+    color: white;
+    font-size: 1rem;
+    border-color: transparent;
+    box-shadow: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#login-form button {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.5rem;
+}
+
+#login-form p {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin-left: -0vw;
+    line-height: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Service Page Starts */
