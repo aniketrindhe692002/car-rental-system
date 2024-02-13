@@ -197,6 +197,7 @@ a {
 #vehicles {
     height: 100vh;
     margin-top: -17.5vh;
+    overflow: hidden;
 }
 
 #vehicles h1 {
@@ -211,8 +212,85 @@ a {
 #design {
     height: 70vh;
     width: 60vw;
-    background-color: orangered;
+    background-color: rgb(255, 97, 40);
     border-radius: 50%;
-    margin-left: 60rem;
+    margin-left: 65rem;
     position: relative;
+    margin-top: -65vh;
+}
+
+#design img {
+    float: right;
+    height: 60vh;
+    margin-right: 30vw;
+}
+
+#search {
+    background-color: white;
+    height: 60vh;
+    width: 28vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    box-shadow: 0rem 0rem 2rem 1rem rgb(220, 219, 219);
+}
+
+#search h1 {
+    /* color: black; */
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 2vw;
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#search p {
+    color: rgb(56, 56, 56);
+    font-size: larger;
+    margin-left: 4vw;
+    margin-top: -1rem;
+}
+
+#destination {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+#destination input {
+    margin-top: 50px;
+    margin-left: 4rem;
+    height: 5vh;
+    width: 20vw;
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: none;
+    color: rgb(93, 93, 93);
+    border: none;
+    border-bottom: 1px solid orangered;
+}
+
+#destination input::placeholder {
+    color: rgb(93, 93, 93);
+    font-size: 0.9rem;
+    border-color: transparent;
+    box-shadow: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#destination button {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 1rem;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    border-width: 0px;
+    height: 3rem;
+    width: 16rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(248, 74, 26);
+}
+
+#destination button a {
+    text-decoration: none;
+    color: white;
 }
