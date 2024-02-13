@@ -35,6 +35,19 @@ nav :hover{
     margin-top: -5vh;
 }
 
+@media screen and (max-width:1300px) {
+    nav a{
+        margin: 2vw;
+        text-decoration: none;
+    }
+    
+    nav {
+        margin-top: 2.5rem;
+        margin-left: 20%;
+        padding: 2px;
+    }
+}
+
 /* main body starts here */
 
 #home h1 {
@@ -74,10 +87,10 @@ span {
 #login-form {
     float: right;
     background-color: black;
-    height: 45vh;
+    height: 52%;
     width: 20vw;
-    margin-top: -25vh;
-    margin-right: 17vw;
+    margin-top: -18%;
+    margin-right: 10%;
     opacity: 82%;
     border-radius: 5%;
 }
@@ -137,6 +150,31 @@ span {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width:1250px) {
+    #login-form {
+        height: 52%;
+        width: 22%;
+        margin-top: -23%;
+        margin-right: 2%;
+    }
+
+    #login-form button {
+        margin-left: 27%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    #login-form {
+        display: none;
+    }
+
+    #home a button {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+
 }
 
 /* Service Page Starts */
